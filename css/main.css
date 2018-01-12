@@ -1,0 +1,121 @@
+/*
+ *
+ * Common
+ *
+ */
+
+html, body {
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: radial-gradient(ellipse at bottom, #6FB5EE 50%, #00a 100%);
+	min-height: 100vh;
+}
+
+h1, h2, h3 {
+	color: #000;
+}
+
+a, figcaption {
+	color: #000;
+	font-weight: 700;
+	padding-top: 0.5em;
+}
+
+footer p a {
+	padding: 0;
+	color: #337ab7;
+}
+
+#particles-js  {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	min-height: 100%;
+}
+
+/*
+ *
+ * Header
+ *
+ */
+
+.page-header {
+	margin: 10px 0 10px;
+	border-bottom: 1px solid #000;
+}
+
+.header-image {
+	margin-bottom: 1em;
+	border-radius: 15px;
+}
+
+.header-image {
+	margin-bottom: 1em;
+}
+
+.header-title {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/*
+ *
+ * Featured Work
+ *
+ */
+
+.featured-work {
+	border-bottom: 1px solid #000;
+	text-align: center;
+	position: relative;
+}
+
+.featured-image {
+	margin: 0 auto;
+	border-radius: 15px;
+}
+
+.featured-figure {
+	padding-top: 0.5em;
+	padding-bottom: 1.5em;
+	margin: 0 auto;
+}
+
+/*
+ *
+ * Footer
+ *
+ */
+
+footer {
+	text-align: center;
+	padding: 1em;
+	width: 100%;
+	font-weight: 700;
+	color: #000;
+	position: relative;
+}
+
+footer li {
+	display: inline-block;
+	margin: 0 1em;
+}
+
+footer a {
+	text-decoration: none;
+	padding: 1em;
+}
+
+footer p a {
+	color: #00f;
+}
+
+.footer-image {
+	text-align: center;
+	display: inline;
+	max-width: 100px;
+}
